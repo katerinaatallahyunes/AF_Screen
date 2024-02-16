@@ -31,7 +31,7 @@ module load alphafold/2.3.2_conda
 template_part2 = """run \\
 --model_preset=multimer \\
 --fasta_paths={fasta_path} \\
---max_template_date=2020-05-14 \\
+--max_template_date=1960-01-01 \\
 --output_dir= \\
 --use_gpu_relax=false \\
 --num_multimer_predictions_per_model=1
